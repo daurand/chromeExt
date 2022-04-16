@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+=======
+
+
+
+
+>>>>>>> 32d5cc8c0a3aa1938960608fa4ed9f54f3d1cb33
 <!-- 
 <!DOCTYPE html>
 <html>
@@ -22,8 +29,14 @@
    </div>
    <script src="popup.js"></script>
   </body>
+<<<<<<< HEAD
 </html> -->
 
+=======
+</html>
+-->
+<!-- 
+>>>>>>> 32d5cc8c0a3aa1938960608fa4ed9f54f3d1cb33
 <html>
     <head>
         <link href="main.css" rel="stylesheet"/>
@@ -31,6 +44,7 @@
     <body>
         <button id="btn">Take Screenshot</button>
 
+<<<<<<< HEAD
         <!-- <img scr="img.bmp" id="img"/> -->
 
         <canvas id="screenshot"></canvas>
@@ -77,3 +91,53 @@
         const button = document.getElementById("btn").onclick = () => a ? takeScreenshot() : {};
     </script>
 </html>
+=======
+        <canvas id="screenshot"></canvas>
+    </body>
+    <script type="text/javascript"> 
+        // const a = navigator.mediaDevices.getDisplayMedia;
+
+        // const takeScreenshot = async() => {
+        //     const stream = await navigator.mediaDevices.getDisplayMedia({
+        //         video: {mediaSource:"screen"}
+        //     });
+
+        //     const track = stream.getVideoTracks()[0];
+
+        //     const image = new ImageCapture(track);
+
+        //     const bitmap = await image.grabFrame();
+
+        //     track.stop();
+            
+        //     const canvas = document.getElementById("screenshot");
+
+        //     canvas.width = bitmap.width;
+        //     canvas.height = bitmap.height;
+
+        //     const context = canvas.getContext("2d");
+
+        //     context.drawImage(bitmap, 0, 0, 790, bitmap.height/2);
+
+        //     const img = canvas.toDataURL();
+
+        //     const res = await fetch(img);
+        //     const buff = await res.arrayBuffer();
+
+        //     const file = [
+        //         new File([buff], ```photo_${new Date()}.bmp```,{
+        //             type:"image/bmp"
+        //         })
+        //     ];
+        //     return file;
+        // };
+
+        // const button = document.getElementById("btn").onclick = () => a ? takeScreenshot() : {};
+        // //const button = document.getElementById("btn").onclick = () => takeScreenshot();
+  </script> 
+    
+
+<script src="popup.js"></script>
+</html>
+-->
+>>>>>>> 32d5cc8c0a3aa1938960608fa4ed9f54f3d1cb33
